@@ -1,0 +1,5 @@
+import colorama
+print(dir(colorama))
+#__builtins - доступ к встроенным индефикатором
+#__loader__ - доступ к модулям
+#init - метод инициализации
