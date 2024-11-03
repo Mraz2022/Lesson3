@@ -1,0 +1,53 @@
+# Cat = {
+#   "name" : "Simo",
+#   "age" : 3,
+#   "weight" : 15,
+#   "fav-food" : "fish",
+#   "poroda" : "britan",
+#   "un-fav-food" : "carrot",
+#   "fav-weather" : "sunny"
+# }
+# print(Cat)
+
+# a = int(input())
+# b = int(input())
+
+# try:
+#   print(a / b)
+# except:
+#   print("inf")
+
+# a = int(input())
+# b = int(input())
+
+# try:
+#   if(b==0):
+#     raise ZeroDivisionError("nope")
+#   elif(type(a) != type(b)):
+#     raise TypeError("not equal")
+#   else:
+#     print(a/b)
+# except ZeroDivisionError as e:
+#     print(e)
+# except TypeError as r:
+#     print(r)
+
+# result = []
+# def divider(a, b):
+#   if a < b:
+#     raise ValueError
+#   if b > 100:
+#     raise IndexError
+#   return a/b
+# data = {10: 2, 2: 5, 123: 4, 18: 0, "[]": 15, 8 : 4}
+# for key in data:
+#    res = divider(key, data[key])
+#    result.append(res)
+
+# print(result)
+
+# import colorama
+# print(dir(colorama))
+# #__builtins - доступ к встроенным индефикатором
+# #__loader__ - доступ к модулям
+# #init - метод инициализации
